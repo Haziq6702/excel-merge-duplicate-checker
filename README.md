@@ -33,20 +33,3 @@ python "excel_merge file.py"
 5. Review the column alignment and merge settings.
 6. Choose the output layout.
 7. The script creates a timestamped Excel workbook containing the merged data and Duplicate Report.
-Input and Output Paths
-Input files and folders are selected by the user when the program runs. No personal computer path is required in the public template.
-
-In the Configuration section, OUTPUT_DIR is optional:
-OUTPUT_DIR = ""  # Enter your preferred output folder path here.
-- Leave it blank to save the result in the current working directory.
-- Enter a folder path to save results in that folder.
-Supported Input Formats
-- .xlsx
-- .xlsm
-Notes
-- The script does not upload data to an external service.
-- The source workbooks are read; the merged result is written to a separate output workbook.
-- Use test or non-confidential data when demonstrating the project.
-- Review your employer's policies before publishing code developed as part of your employment.
-Disclaimer
-This is a general-purpose Excel automation template. Users are responsible for selecting appropriate input files, configuring the output location, and ensuring they have permission to process and share their data.
